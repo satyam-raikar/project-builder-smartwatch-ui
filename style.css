@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.strap {
+    background-color: #3B3B3B;
+
+    padding: 1px;
+    border-radius: 40px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: black;
+    border-radius: 25px;
+    height: 270px;
+    width: 250px;
+}
+
+
+
+/* ----------------------------------------------------------- */
+
+.head {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px 25px 0px 0px;
+
+    height: 12%;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    height:70%
+}
+
+.foot {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 0px 25px 25px ;
+
+    height: 18%;
+
+}
+
+/* menu items----------------------------------------------------------- */
+
+.menu-left{
+
+}
+
+.menu-centre{
+
+}
+
+.menu-right{
+
+}
+
+i{
+ 
+ 
+    color: white;
+}
+
+
+
+
+
+/* ----------------------------------------------------------- */
+
+.main-clock {
+    margin: 5px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.display-time {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+}
+
+.display-time > span{
+    padding:5px;
+}
+.ampm{
+    font-size: 15px;
+  
+}
+.clock{
+    font-size: 35px;
+
+}
+.day{
+    font-size:15px;
+
+}
+.date{
+    font-size: 15px;
+}
+
+
